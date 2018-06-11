@@ -1,0 +1,52 @@
+<svg >
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/widgets_common.gui" />
+    <!-- Additional Imports -->
+    <link rel="import" href="/mnt/sysassets/widgets/push_button_widget.gui" />
+  </defs>  
+  
+  <image id="myImage" href="myImage.jpg" />
+  <text id="myDate" x="50%" y="8%+15"
+      fill="white" font-size="50" font-family="Tungsten-Medium"
+      text-anchor="middle" text-length="200">12/23/2017</text>
+  <text id="myTime" x="15%" y="90%+15"
+      fill="white" font-size="50" font-family="Tungsten-Medium"
+      text-anchor="middle" text-length="1000">00:00</text>
+   <text id="myHR" x="50%" y="50%+15"
+      fill="white" font-size="70" font-family="Tungsten-Medium"
+      text-anchor="middle" text-length="1000">0</text>
+  
+<text id="myPower" x="90%" y="90%+15"
+      fill="white" font-size="50" font-family="Tungsten-Medium"
+      text-anchor="middle" text-length="1000">0</text>
+   
+  <use id="hiddenButton" href="#push-button"
+    fill="fb-red" opacity="0" font-family="System-Regular" font-size="40">
+    <set href="#text" attributeName="text-buffer" to="Click Me!" />
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+   
+  </use>
+  
+  <text id="mySteps" x="50%" y="10%+15"
+      fill="white" font-size="40" font-family="Tungsten-Medium"
+      text-anchor="middle" text-length="1000">0</text>
+  <text id="myCalories" x="50%" y="25%+15"
+      fill="white" font-size="40" font-family="Tungsten-Medium"
+      text-anchor="middle" text-length="1000">0</text>
+  <text id="myActiveMinutes" x="50%" y="40%+15"
+      fill="white" font-size="40" font-family="Tungsten-Medium"
+      text-anchor="middle" text-length="1000">0</text>
+  <text id="myLocation" x="50%" y="60%+15"
+      fill="white" font-size="40" font-family="Tungsten-Medium"
+      text-anchor="middle" text-length="1000">Loading</text>
+  <text id="myDescription" x="50%" y="75%+15"
+      fill="white" font-size="40" font-family="Tungsten-Medium"
+      text-anchor="middle" text-length="1000">Loading</text>
+  <text id="myTemp" x="50%" y="90%+15"
+      fill="white" font-size="40" font-family="Tungsten-Medium"
+      text-anchor="middle" text-length="1000">Loading</text>
+  
+  
+  </svg>
