@@ -1,0 +1,24 @@
+{
+  "fitbit": {
+    "appUUID": "829363df-b73f-499d-86ba-d4ba3372f932",
+    "appType": "clockface",
+    "appDisplayName": "Colorful Face",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_user_profile",
+      "access_location",
+      "access_internet",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Colorful Face"
+      }
+    }
+  }
+}
