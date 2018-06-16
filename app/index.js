@@ -1,5 +1,4 @@
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
+//Import Modules
 import document from "document";
 import clock from "clock";
 import Weather from '../common/weather/device'
@@ -17,7 +16,7 @@ import { units } from "user-settings";
 
 
 console.log("App Started");
-
+//Handle <Text> Elements
 let myDate = document.getElementById("myDate");
 let myTime = document.getElementById("myTime");
 let myHR = document.getElementById("myHR");
@@ -32,6 +31,7 @@ let mySteps = document.getElementById("mySteps")
 let myCalories = document.getElementById("myCalories")
 let myActiveMinutes = document.getElementById("myActiveMinutes")
 
+//Clock
 clock.granularity = 'seconds';
 
 let days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];l
@@ -75,8 +75,6 @@ myPower.text = (Math.floor(battery.chargeLevel) + "%") + (" " + (charger.connect
 
 setInterval(refresh_myPower, 1000);
 //Add Weather For <Tap>------------------------------------------------------------------------
-// Import the weather module
-
 let provider = 0
 // Enter your own api keys below
 const PROVIDERS = [
