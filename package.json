@@ -12,13 +12,20 @@
       "access_internet",
       "access_activity"
     ],
-    "buildTargets": [
-      "higgs"
+   "buildTargets": [
+      "higgs",
     ],
     "i18n": {
       "en": {
         "name": "Colorful Face"
       }
     }
+  },
+  "dependencies": {
+    "@fitbit/sdk": "^1.0.1",
+    "@fitbit/sdk-cli": "^1.0.0"
+  },
+  "scripts": {
+    "build": "fitbit-build"
   }
 }
